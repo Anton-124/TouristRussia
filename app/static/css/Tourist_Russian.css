@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*border: #db0f0f solid 3px;*/
+    background: url("../img/mountains.jpg") no-repeat top/cover #222;
+    font-family: Arial sans-serif;
+    color: white;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 400px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 140px;
+
+}
+
+.header-title a {
+    text-decoration: none;
+    color: #222;
+    background: none;
+    font-size: 350%;
+    font-weight: bold;
+}
+
+.header-title p {
+    margin: 0;
+    font-size: 120%;
+    line-height: 80%;
+    color: #222;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+    background-color: #222;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: #5c5c5c solid;
+    border-width:0 0 1px 0;
+}
+
+.nav-bar li {
+    padding: 25px 0;
+}
+
+.nav-el {
+    padding: 27px 25px;
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+
+.nav-el:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.tours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+    padding: 55px 0 50px 0;
+    border: #5c5c5c solid;
+    border-width:0 0 1px 0;
+}
+
+.tours-el {
+    max-width: 800px;
+    padding-top: 50px;
+}
+
+.tours-el:nth-of-type(1) {
+    border: #5c5c5c solid;
+    border-width:0 0 1px 0;
+    padding-bottom: 30px;
+}
+
+.tours-el:nth-of-type(2) {
+    border: #5c5c5c solid;
+    border-width:0 0 1px 0;
+    padding-bottom: 30px;
+}
+
+.tours h1 {
+    font-size: 250%;
+    margin: 0;
+    padding: 35px 0 0;
+}
+
+.tours-el h2 {
+    margin: 50px 0 0 0;
+    font-size: 180%;
+}
+
+.tours-el h3 {
+     margin: 30px 0 0 0;
+}
+
+.tours-el p {
+    margin: 15px 0;
+    font-size: 110%;
+    font-weight: lighter;
+}
+
+.tours-el img {
+    max-width: 500px;
+}
+
+.href-tours-page {
+    margin-top: 20px;
+}
+
+.tours-el a {
+    text-decoration: none;
+    border-bottom: white solid 1px;
+    color: white;
+}
+
+.tours-el a:hover {
+    font-weight: bold;
+    border-bottom: white solid 3px;
+}
+
+.tours-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+    padding: 90px 0 50px 0;
+    font-size: 170%;
+    border: #5c5c5c solid;
+    border-width:0 0 1px 0;
+
+}
+
+.tours-price-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 10px 0 25px 0;
+}
+
+.tours-price-el {
+    display: flex;
+    justify-content: space-between;
+    border: #5c5c5c solid;
+    border-width:0 0 1px 0;
+    font-size: 75%;
+}
+
+.tours-price-el p:nth-child(2n+1) {
+    margin: 18px 150px 5px 0;
+}
+
+.tours-price-el p:nth-child(2n) {
+    margin: 18px 0 5px 150px;
+}
+
+.tours-price h1 {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.price-details {
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35%;
+    font-style: italic;
+    margin: 0;
+    color: #9a9a9a;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+    border: #5c5c5c solid;
+    border-width:0 0 1px 0;
+    padding: 100px 0;
+}
+
+.news h1 {
+
+    font-size: 250%;
+    margin: 0 0 20px 0;
+}
+
+.news-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+}
+
+.news-bar h2 {
+    margin: 40px 0 0;
+    font-size: 150%;
+}
+
+.news-bar p {
+    margin: 10px 0;
+    font-weight: lighter;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 20px 0 20px 0;
+    font-size: 80%;
+    font-weight: lighter;
+}
+
+.footer p {
+    padding: 10px 0 0 40px;
+    margin: 0;
+}
+
+.footer h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.footer h3:nth-child(1) {
+    margin: 0 0 20px 0;
+}
+
+.find-us p, .connect-us p {
+    margin: 0 0 20px 0;
+}
+
+.find-us {
+    margin: 0 100px 0 0;
+}
+
+.social-bar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-el {
+    padding: 0 10px 0 0;
+    margin: 0;
+
+}
